@@ -9,4 +9,30 @@ li {
   margin: 15px;
 }
 
+.news p{
+    font-size: 1.2em;
+    color: #333;
+}
+.news h3{
+    font-size: 1.5em;
+    color: #572222;
+}
 
+#student-orgs h3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #256136;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    color: #8c9f5c;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
