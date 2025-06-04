@@ -9,6 +9,13 @@ li {
   margin: 15px;
 }
 
+.news{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+}
 .news p{
     font-size: 1.2em;
     color: #333;
@@ -16,13 +23,36 @@ li {
 .news h3{
     font-size: 1.5em;
     color: #572222;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    display: center;
 }
+
+
+#events{
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+#student-orgs {
+  background-color: #f0f8ff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+
+  
+}
+
 
 #student-orgs h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   color: #256136;
+  padding: auto;
+  margin: auto;
 }
 
 h1{
@@ -35,4 +65,20 @@ p{
     font-family: Arial, sans-serif;
     font-size: 1.2em;
     color: #333;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#navigation {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: #333 solid 1px;
+    border-radius: 8px;
 }
